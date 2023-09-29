@@ -9,7 +9,7 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
-		"deploy": "pnpm push-dir --dir=.output --branch=gh_pages"
+		"deploy": "pnpm push-dir --dir=.output/public --branch=gh_pages"
 	},
 	"devDependencies": {
 		"@nuxt/devtools": "latest",

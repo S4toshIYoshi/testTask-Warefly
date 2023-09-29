@@ -15,7 +15,7 @@ export default {
 	},
 	build: {},
 	router: {
-		base: './',
+		base: 'https://s4toshiyoshi.github.io/testTask-Warefly/',
 	},
 	components: true,
 };

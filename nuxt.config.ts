@@ -13,4 +13,9 @@ export default {
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
 	},
+	build: {},
+	router: {
+		base: './',
+	},
+	components: true,
 };

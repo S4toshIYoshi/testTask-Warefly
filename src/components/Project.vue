@@ -2,9 +2,11 @@
 	<div class="card-projects">
 		<a :href="project.svn_url" class="name">{{ project.name }}</a>
 		<div class="languages">
-			<div class="language" v-for="(item, index) in languages" :key="index">
-				{{ index }}
-			</div>
+			<client-only>
+				<div class="language" v-for="(item, index) in languages" :key="index">
+					{{ index }}
+				</div>
+			</client-only>
 		</div>
 	</div>
 </template>

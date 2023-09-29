@@ -1,6 +1,8 @@
 <template>
 	<div class="projects">
-		<Project v-for="(item, index) in projects" :project="item" :key="index" />
+		<client-only>
+			<Project v-for="(item, index) in projects" :project="item" :key="index" />
+		</client-only>
 	</div>
 </template>
 
